@@ -31,7 +31,7 @@ class _GradeCalculatorState extends State<GradeCalculator> {
             content: const Text('valid grades are between 0 and 100.'),
             actions: [
               TextButton(
-                child: const Text('I understand'),
+                child: Center(child: const Text('I understand')),
                 onPressed: () {
                   Navigator.of(context).pop();
                 },
