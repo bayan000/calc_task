@@ -71,7 +71,7 @@ class _GradeCalculatorState extends State<GradeCalculator> {
     return Scaffold(
       appBar: AppBar(
         title: const Text('Grades Calculator'),
-        backgroundColor: Colors.blue, // Customize app bar color
+        backgroundColor: Colors.orange,
       ),
       body: Padding(
         padding: const EdgeInsets.all(16.0),
@@ -94,8 +94,8 @@ class _GradeCalculatorState extends State<GradeCalculator> {
               onPressed: _addGrade,
               child: const Text('Add Grade'),
               style: ElevatedButton.styleFrom(
-                backgroundColor: Colors.blue, // Customize button color
-                foregroundColor: Colors.white, // Customize button text color
+                backgroundColor: Colors.orange,
+                foregroundColor: Colors.white,
               ),
             ),
             const SizedBox(height: 16.0),
@@ -116,8 +116,8 @@ class _GradeCalculatorState extends State<GradeCalculator> {
               onPressed: _calculateAverage,
               child: const Text('Calculate Average'),
               style: ElevatedButton.styleFrom(
-                backgroundColor: Colors.blue, // Customize button color
-                foregroundColor: Colors.white, // Customize button text color
+                backgroundColor: Colors.orange,
+                foregroundColor: Colors.white,
               ),
             ),
           ],
